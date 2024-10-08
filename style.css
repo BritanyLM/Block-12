@@ -1,0 +1,43 @@
+div > nav {
+    background-color: aquamarine;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav {
+ display: flex;
+ justify-content: end;
+}
+
+@media screen and (max-width: 200px) {
+    body {
+        background-color: brown;
+    }
+}
+div> img {
+    display: flex;
+    border-radius: 50%;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+}
+
+div> input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50%;
+}
+
+.mission  {
+    background-color: brown;
+}
